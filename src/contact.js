@@ -23,6 +23,9 @@ const createContactPage = () => {
     submitButton.value = 'submit'
     form.appendChild(submitButton);
 
+    pageContent.appendChild(form);
+
+
     content.appendChild(pageContent);
 
 

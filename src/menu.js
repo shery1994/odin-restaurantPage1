@@ -1,8 +1,8 @@
 const createMenuPage = () => {
 
     const content = document.querySelector('#content');
-    const pageContent = doucment.createElement('div');
-    pageContent.classlist.add('page-content');
+    const pageContent = document.createElement('div');
+    pageContent.classList.add('page-content');
 
 
     const heading = document.createElement('h1');
